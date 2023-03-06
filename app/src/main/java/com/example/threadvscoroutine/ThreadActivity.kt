@@ -24,6 +24,7 @@ class ThreadActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        // Application will crash
         binding.button.setOnClickListener {
             val thread = ExampleThread()
             thread.start()

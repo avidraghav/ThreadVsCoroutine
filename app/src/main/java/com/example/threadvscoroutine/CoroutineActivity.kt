@@ -24,6 +24,7 @@ class CoroutineActivity : AppCompatActivity() {
         }
     }
 
+    // Application won't crash here
     private fun launchCoroutines() {
         // create a separate coroutine to launch other coroutines
         // as not to block Main Thread
